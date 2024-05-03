@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\projectef.csproj": {}
+    "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\Lista_tareas\\projectef.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\projectef.csproj": {
+    "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\Lista_tareas\\projectef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\projectef.csproj",
+        "projectUniqueName": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\Lista_tareas\\projectef.csproj",
         "projectName": "projectef",
-        "projectPath": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\projectef.csproj",
+        "projectPath": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\Lista_tareas\\projectef.csproj",
         "packagesPath": "C:\\Users\\rossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\obj\\",
+        "outputPath": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\Lista_tareas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rossi\\AppData\\Roaming\\NuGet\\NuGet.Config"

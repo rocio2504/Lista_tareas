@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pa+eJ1iBg330YPTH1paMwablQK9n+Hv2WvC3+Ht/MUdbxrOYkoFfmImVCUQqvmb3FeCH3o45lEGYStaQob3Mfw==",
+  "dgSpecHash": "Nejs9I235D/8bWeEvTpPrNZOt2ZDj54CrIhk/O5IeByytoHuDbGTOVn9Wd3gIBbo9wHA7aFrHpoz7jCQhxC0BQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\projectef.csproj",
+  "projectFilePath": "C:\\Users\\rossi\\Downloads\\platzi_net\\projectef\\Lista_tareas\\projectef.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rossi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rossi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
