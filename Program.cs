@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Builder;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<TareasContext>(p =>p.UseInMemoryDatabase("TareasDB"));
+//Conectado a base de datos SQL server
 builder.Services.AddSqlServer<TareasContext>(("Data Source=LAPTOPTareasDB"));
 
 var app = builder.Build();
