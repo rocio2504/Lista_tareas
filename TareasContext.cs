@@ -11,6 +11,18 @@ public class TareasContext : DbContext
     public TareasContext(DbContextOptions<TareasContext> options) : base(options)
     {
     }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Categoria>(categoria =>
+        {
+            categoria.Totable("Categoria");
+            categoria.HasKey(p => p.CategoriaId);
+            categoria.Property(p => p.Nombre).HasMaxLength(150).IsRequired();
+            categoria.Property(p => p.Descripcion);
+            categoria.HasMany(c => c.Tareas).WithOne(t => t.Categoria).HasForeignKey(t => t.CategoriaId);
+        });
+           
+    }
     /*
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
