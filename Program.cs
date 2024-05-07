@@ -13,7 +13,7 @@ Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfull
 AGREGAR LO SIGUIENTE A LA CADENA DE CONEXION:TrustServerCertificate=True:
 "Data Source=LAPTOP-731U8C1L\\MSSQLSERVER2014;Initial Catalog=TareasDb;user id=sa;password=contraseña;TrustServerCertificate=True"
 */
-builder.Services.AddSqlServer<TareasContext>("Data Source=LAPTOP-1JK1J506\\SQLEXPRESS;Initial Catalog=TareasDB;user id = sa; password = 12345678;TrustServerCertificate=True");
+builder.Services.AddSqlServer<TareasContext>(builder.Configuration.GetConnectionString("cnTareas"));
 
 var app = builder.Build();
 
